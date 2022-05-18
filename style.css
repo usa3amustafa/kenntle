@@ -132,7 +132,6 @@ img {
 nav {
   background: #5bec58;
   border-top: 2px solid black;
-  height: 10vh;
   margin-top: 12rem;
   position: relative;
 }
@@ -152,4 +151,5 @@ nav::before {
   align-items: center;
   justify-content: space-between;
   padding: 8px;
+  height: 10vh;
 }
