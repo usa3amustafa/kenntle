@@ -132,7 +132,7 @@ img {
 .star-yellow {
   color: gold;
 
-  animation: rotate-star 5s ease-in-out forwards;
+  animation: rotate-star 1s ease-in-out forwards;
 }
 
 .star-yellow-rotate {
@@ -140,10 +140,10 @@ img {
 
 @keyframes rotate-star {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0turn);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(1turn);
   }
 }
 
