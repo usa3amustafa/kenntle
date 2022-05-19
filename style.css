@@ -92,6 +92,13 @@ img {
   border: none;
   border-radius: 2px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-input-text:focus-visible {
+  border: none;
+  outline: none;
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25);
 }
 
 .main-text {
