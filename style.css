@@ -7,7 +7,6 @@
 body {
   background-color: #cec0d3;
   font-family: 'Roboto';
-  height: 100vh;
 }
 
 .container {
@@ -55,6 +54,7 @@ img {
     position: absolute;
     top: 0;
     right: 1%;
+    width: 5.125rem;
   }
 
   100% {
@@ -112,6 +112,10 @@ img {
 .star {
   font-size: 2rem;
   margin-top: -4px;
+}
+
+.op-0 {
+  opacity: 0;
 }
 
 .star-hidden {
